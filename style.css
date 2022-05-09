@@ -1,0 +1,140 @@
+body {
+  margin: 0px;
+}
+
+#bg {
+  max-width: 600px;
+  min-width: 200px;
+  line-height: 1.4;
+  margin: 0 auto;
+  border: 1px solid #dfdfdf;
+  border-radius: 10px;
+  background-color: #fdfdfd;
+
+  text-align: center;
+}
+
+.headerBox {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  background: url(image/PM-Holiday-Image1.jpg);
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainLogo {
+  width: 90%;
+  height: 150px;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.8);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainLogo h1 {
+  font-weight: 700;
+  font-size: 50px;
+  color: #bf0f35;
+}
+
+.greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainBox {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.main_cont {
+  background-color: #999;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgBox {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+
+.mainImg_1 {
+  background-image: url(image/PM-Holiday-Image2.jpg);
+}
+
+.mainImg_2 {
+  background-image: url(image/PM-Holiday-Image3.jpg);
+}
+
+.main_cont {
+  margin: 0px 20px 10px 10px;
+  background-color: #BF0F35;
+  color: #ffffff;
+}  
+
+.mainBox h3 {
+  margin: 15px 10px 0px 10px;
+}
+
+.mainBox p {
+  margin: 0px 10px 15px 10px;
+}
+
+.follow {
+  background-color: #bf0f35;
+  width: 100%;
+  height: 120px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.followText {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.followBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.icon {
+  width: 35px;
+  margin: 10px;
+}
+
+.copyLight {
+  padding-top: 20px;
+}
+
+.copyLight p {
+  font-size: 14px;
+  margin: 0px 0px 10px 0px;
+}
+
+.copyLight span {
+  font-size: 14px;
+}
